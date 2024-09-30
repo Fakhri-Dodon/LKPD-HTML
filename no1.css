@@ -1,0 +1,9 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+tr, td, th {
+    border: 1px solid;
+}

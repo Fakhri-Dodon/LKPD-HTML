@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No 1. Table</title>
+    <link rel="stylesheet" href="no1.css">
+
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th>No</th>
+            <th>Keterangan</th>
+            <th>Bersedia Membayar</th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">1. </th>
+            <th rowspan="2">Bersedia membayar <b>Dana Sumbangan  Pembangunan (DSP)</b> sebesar Rp. 8.500.000 dengan mekanisme Pembayaran Dana Sumbangan Pendidikan</th>
+            <th>
+                <input type="radio" name="dsp">
+                <label for="dsp">Lunas saat daftar ulang</label>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="radio" name="dsp">
+                <label for="dsp">60% dibayarkan saat daftar ulang, dan sisanya dibayarkan paling lambat tanggal 13 juli 2024</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th>2. </th>
+            <th>Bersedia membayar <b>Sumbangan Penyelenggaraan Pendidikan (SPP) </b>secara rutin setiap bulan sebesar <b>Rp. 550.000 </b>yang dibayarkan sebelum tanggal 10 setiap bulannya kecuali bulan Juli 2024</th>
+            <th><input type="checkbox" checked="checked"></th>
+        </tr>
+
+        <tr>
+            <th>3. </th>
+            <th>
+                <b>Pembayaran Lainnya.</b>
+                <br>
+                Setelah Putra/Putri kami diterima di SMK Wikrama Bogor. Kami juga bersedia memberikan: 
+                <br>
+                a. Wakaf Pembangunan Mesjid Al-Ikram
+            </th>
+            <th>
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">Rp. 300.0000</label>
+                <br>   
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">Rp. 500.000</label>
+                <br>
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">Rp. 1.000.000</label>
+                <br>
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">Rp. 2.000.000</label>
+                <br>
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">Rp. 5.000.000</label>
+                <br>
+                <input type="radio" name="sodaqoh">
+                <label for="sodaqoh">
+                    > Rp. 5.000.000 atau Rp. 
+                    <input type="number">
+                </label>
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>b. Zakat Infaq Sodaqoh secara rutin setiap bulan:</th>
+            <th><input type="text" value="Rp. 20.000"></th>
+        </tr>
+    </table>
+</body>
+</html>
